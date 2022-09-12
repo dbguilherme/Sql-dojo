@@ -18,7 +18,9 @@ Dojo para relembrar o conteúdo de SQL básico através de exercícios. Para rod
 
 - Documentação para relembrar a sintaxe do SQL: 
   https://www.postgresql.org/docs/current/sql-select.html
+  
   https://www.tutorialspoint.com/postgresql/postgresql_syntax.htm
+  
   https://www.postgresqltutorial.com/postgresql-administration/psql-commands/
 
 - Boa atividade :) 
