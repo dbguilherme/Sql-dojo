@@ -53,5 +53,7 @@ Dojo para relembrar o conteúdo de SQL básico através de exercícios. Para rod
   
   https://www.postgresqltutorial.com/postgresql-administration/psql-commands/
 
+  https://www.postgresqltutorial.com/postgresql-window-function/
+
 - Boa atividade :) 
  -->
