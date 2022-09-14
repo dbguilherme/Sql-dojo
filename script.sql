@@ -10,7 +10,7 @@ CREATE TABLE empregados (
  dep_id int DEFAULT NULL,
  supervisor_id int DEFAULT NULL,
  nome varchar(255) DEFAULT NULL,
- salario varchar(255) DEFAULT NULL,
+ salario int DEFAULT NULL,
  PRIMARY KEY (emp_id)
 );
 
