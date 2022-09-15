@@ -74,4 +74,14 @@
 --       7 | Ana       |      4 |   12200 | 12200.0000000000000000
 
 
-10 Faça um questão livre e responda com join e subconsulta; 
+11 - Encontre os empregados com salario maior ou igual a média do seu departamento. Deve ser reportado o salario do empregado e a média do departamento (dica: usar window function com subconsulta)
+
+--   nome   | salario | dep_id |       avg_salary       
+-- ---------+---------+--------+------------------------
+--  Claudia |   10000 |      1 |  8125.0000000000000000
+--  Maria   |    9500 |      1 |  8125.0000000000000000
+--  Luiz    |    8000 |      2 |  7750.0000000000000000
+--  Joao    |    6000 |      3 |  6000.0000000000000000
+--  Ana     |   12200 |      4 | 12200.0000000000000000
+
+N - Faça um questão livre e responda com join e subconsulta; 
