@@ -13,7 +13,7 @@
 
 ## Setup
 - Clonar o repositorio:
-  `git clone 'end'`
+  `git clone `
 
 - Logar no Postgres:  
  `sudo -u postgres psql postgres`
