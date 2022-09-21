@@ -17,7 +17,8 @@
 
 - Logar no Postgres:  
  `sudo -u postgres psql postgres`
-  `psql -h localhost -U postgres -d postgres -f script.sql `
+ 
+ `psql -h localhost -U postgres -d postgres -f script.sql `
 
 - Rodar o script para popular o banco na pasta do repositório:   
    `\i script.sql`
