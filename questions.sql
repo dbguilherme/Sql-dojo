@@ -1,10 +1,13 @@
 1  Listar os empregados (nomes) que tem salário maior que seu chefe
 
 
+
 --  empregado | chefe | emp sal | chef sal 
 -- -----------+-------+---------+----------
---  Maria     | Jose  | 9500    | 8000
---  Luiz      | Pedro | 8000    | 7500
+--  Maria     | Jose  |    9500 |     8000
+--  Claudia   | Jose  |   10000 |     8000
+--  Ana       | Jose  |   12200 |     8000
+--  Luiz      | Pedro |    8000 |     7500
 
 
 2 Listar o maior salario de cada departamento (pode ser usado o group by)
