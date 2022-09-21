@@ -15,14 +15,12 @@
 
 
 3 Listar o nome do funcionario com maior salario dentro de cada departamento (pode ser usado o IN)
-
-
---  dep_id | nome  | salario 
--- --------+-------+---------
---       3 | Joao  | 6000
---       1 | Maria | 9500
---       4 | Ana   | 12200
---       2 | Luiz  | 8000
+--  dep_id |  nome   | salario 
+-- --------+---------+---------
+--       3 | Joao    |    6000
+--       1 | Claudia |   10000
+--       4 | Ana     |   12200
+--       2 | Luiz    |    8000
 
 4 Listar os nomes departamentos que tem menos de 3 empregados;
 
