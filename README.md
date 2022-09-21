@@ -15,13 +15,12 @@
 - Clonar o repositorio:
   `git clone `
 
-- Logar no Postgres:  
- `sudo -u postgres psql postgres`
- 
+- Rodar o script: 
  `psql -h localhost -U postgres -d postgres -f script.sql `
 
 - Rodar o script para popular o banco na pasta do repositório:   
-   `\i script.sql`
+  `sudo -u postgres psql postgres`
+  \c dojo
 
 - Fazer as questões do arquivo questions.sql
 
