@@ -54,11 +54,6 @@
 8 Listar os departamentos com o total de salários pagos 
 
 
---  emp_id | dep_id | supervisor_id | nome | salario | emp_id | dep_id | supervisor_id | nome  | salario 
--- --------+--------+---------------+------+---------+--------+--------+---------------+-------+---------
---       2 |      3 |             5 | Joao | 6000    |      5 |      2 |             0 | Pedro | 7500
---       7 |      4 |             1 | Ana  | 12200   |      1 |      1 |             0 | Jose  | 8000
-
 
 9  Listar os colaboradores com salario maior que a média do seu departamento;
 
