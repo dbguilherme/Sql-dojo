@@ -26,10 +26,11 @@
 
 4 Listar os nomes departamentos que tem menos de 3 empregados;
 
---  nome 
--- ------
---  TI
-
+--    nome    
+-- -----------
+--  Marketing
+--  RH
+--  Vendas
 
 
 6 Listar os departamentos  com o número de colaboradores
