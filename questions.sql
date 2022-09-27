@@ -1,8 +1,6 @@
 1  Listar os empregados (nomes) que tem salário maior que seu chefe
 
-
-
---  empregado | chefe | emp sal | chef sal 
+--  empregado | chefe | emp sal | chef sal
 -- -----------+-------+---------+----------
 --  Maria     | Jose  |    9500 |     8000
 --  Claudia   | Jose  |   10000 |     8000
@@ -15,7 +13,7 @@
 
 
 3 Listar o nome do funcionario com maior salario dentro de cada departamento (pode ser usado o IN)
---  dep_id |  nome   | salario 
+--  dep_id |  nome   | salario
 -- --------+---------+---------
 --       3 | Joao    |    6000
 --       1 | Claudia |   10000
@@ -31,7 +29,7 @@
 --  Vendas
 
 
-6 Listar os departamentos  com o número de colaboradores
+5 Listar os departamentos  com o número de colaboradores
 
     
 --    nome    | count 
@@ -42,7 +40,7 @@
 --  Vendas    |     1
 
 
-7 Listar os empregados que não possuem chefes no mesmo departamento 
+6 Listar os empregados que não possuem chefes no mesmo departamento
 
 --  nome | dep_id 
 -- ------+--------
@@ -50,14 +48,14 @@
 --  Ana  |      4
 
 
-8 Listar os departamentos com o total de salários pagos 
+7 Listar os departamentos com o total de salários pagos
 
 
 
-9  Listar os colaboradores com salario maior que a média do seu departamento;
+8  Listar os colaboradores com salario maior que a média do seu departamento;
 
 
-10 Compare o salario de cada colaborados com média do seu setor. Dica: usar slide windows functions (https://www.postgresqltutorial.com/postgresql-window-function/)
+9 Compare o salario de cada colaborados com média do seu setor. Dica: usar slide windows functions (https://www.postgresqltutorial.com/postgresql-window-function/)
 
 -- emp_id |   nome    | dep_id | salario |          avg           
 -- --------+-----------+--------+---------+------------------------
@@ -71,7 +69,7 @@
 --       7 | Ana       |      4 |   12200 | 12200.0000000000000000
 
 
-11 - Encontre os empregados com salario maior ou igual a média do seu departamento. Deve ser reportado o salario do empregado e a média do departamento (dica: usar window function com subconsulta)
+10 - Encontre os empregados com salario maior ou igual a média do seu departamento. Deve ser reportado o salario do empregado e a média do departamento (dica: usar window function com subconsulta)
 
 --   nome   | salario | dep_id |       avg_salary       
 -- ---------+---------+--------+------------------------
