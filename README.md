@@ -13,7 +13,7 @@
 
 ## Setup
 - Clonar o repositorio:
-  `git clone `
+  `git clone `https://github.com/dbguilherme/Sql-dojo.git
 
 - Rodar o script: 
  `psql -h localhost -U postgres -d postgres -f script.sql `
