@@ -1,26 +1,34 @@
-1  Listar os empregados (nomes) que tem salário maior que seu chefe
+1  Listar os empregados (nomes) que tem salário maior que seu chefe (usar o join)
 
 
 
---  empregado | chefe | emp sal | chef sal 
--- -----------+-------+---------+----------
---  Maria     | Jose  |    9500 |     8000
---  Claudia   | Jose  |   10000 |     8000
---  Ana       | Jose  |   12200 |     8000
---  Luiz      | Pedro |    8000 |     7500
+--  empregado | 
+-- -----------+
+--  Maria     |
+--  Claudia   |
+--  Ana       |
+--  Luiz      |
 
 
 2 Listar o maior salario de cada departamento (pode ser usado o group by)
 
+--  dep_id |  max  
+-- --------+-------
+--       1 | 10000
+--       2 |  8000
+--       3 |  6000
+--       4 | 12200
 
 
-3 Listar o nome do funcionario com maior salario dentro de cada departamento (pode ser usado o IN)
+
+3 Listar o dep_id, nome e o salario do funcionario com maior salario dentro de cada departamento (pode ser usado o IN)
 --  dep_id |  nome   | salario 
 -- --------+---------+---------
 --       3 | Joao    |    6000
 --       1 | Claudia |   10000
 --       4 | Ana     |   12200
 --       2 | Luiz    |    8000
+
 
 4 Listar os nomes departamentos que tem menos de 3 empregados;
 
@@ -31,7 +39,7 @@
 --  Vendas
 
 
-6 Listar os departamentos  com o número de colaboradores
+5 Listar os departamentos  com o número de colaboradores
 
     
 --    nome    | count 
@@ -42,7 +50,7 @@
 --  Vendas    |     1
 
 
-7 Listar os empregados que não possuem chefes no mesmo departamento 
+6 Listar os empregados que não possue o seu  chefe no mesmo departamento/ 
 
 --  nome | dep_id 
 -- ------+--------
@@ -50,14 +58,41 @@
 --  Ana  |      4
 
 
-8 Listar os departamentos com o total de salários pagos 
+7 Listar os departamentos com o total de salários pagos 
+
+--   sum  |   nome    
+-- -------+-----------
+--   6000 | Vendas
+--  12200 | Marketing
+--  15500 | RH
+--  32500 | TI
 
 
 
-9  Listar os colaboradores com salario maior que a média do seu departamento;
+8 Listar os nomes dos colaboradores com salario maior que a média do seu departamento (dica: usar subconsultas);
+
+--   Nome   | Salário 
+-- ---------+---------
+--  Maria   |    9500
+--  Claudia |   10000
+--  Luiz    |    8000
+
+ Faça uma consulta capaz de listar os dep_id, nome, salario, e as médias de cada departamento utilizando o windows function;
+ 
+--  dep_id |   nome    | salario |  avg  
+-- --------+-----------+---------+-------
+--       1 | Jose      |    8000 |  8125
+--       1 | Claudia   |   10000 |  8125
+--       1 | Guilherme |    5000 |  8125
+--       1 | Maria     |    9500 |  8125
+--       2 | Luiz      |    8000 |  7750
+--       2 | Pedro     |    7500 |  7750
+--       3 | Joao      |    6000 |  6000
+--       4 | Ana       |   12200 | 12200
 
 
-10 Compare o salario de cada colaborados com média do seu setor. Dica: usar slide windows functions (https://www.postgresqltutorial.com/postgresql-window-function/)
+
+9 Compare o salario de cada colaborados com média do seu setor. Dica: usar slide windows functions (https://www.postgresqltutorial.com/postgresql-window-function/)
 
 -- emp_id |   nome    | dep_id | salario |          avg           
 -- --------+-----------+--------+---------+------------------------
