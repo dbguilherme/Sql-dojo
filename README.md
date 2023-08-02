@@ -34,6 +34,9 @@
   
   https://www.postgresqltutorial.com/postgresql-administration/psql-commands/
 
+## Colab
+   https://colab.research.google.com/drive/1oN6QWKMLxbgpIMY6Ww9F3qCXDNZZUcV_
+
 ## To-do
 
 - Mais questões
