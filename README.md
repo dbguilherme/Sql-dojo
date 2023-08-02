@@ -18,11 +18,11 @@
 - Rodar o script: 
  `psql -h localhost -U postgres -d postgres -f script.sql `
 
-- Rodar o script para popular o banco na pasta do repositório:   
+- Acessar o terminal
   `sudo -u postgres psql postgres`
   \c dojo
 
-- Fazer as questões do arquivo questions.sql
+- Fazer as questões do arquivo questions.sql :)
 
 
 ---

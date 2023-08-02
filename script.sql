@@ -11,13 +11,11 @@ CREATE TABLE empregados (
  supervisor_id int DEFAULT NULL,
  nome varchar(255) DEFAULT NULL,
  salario int DEFAULT NULL,
- PRIMARY KEY (emp_id)
 );
 
 CREATE TABLE departamentos (
  dep_id int NOT NULL ,
  nome varchar(255) DEFAULT NULL,
- PRIMARY KEY (dep_id)
 );
 
 
