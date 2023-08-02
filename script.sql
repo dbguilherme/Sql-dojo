@@ -10,12 +10,12 @@ CREATE TABLE empregados (
  dep_id int DEFAULT NULL,
  supervisor_id int DEFAULT NULL,
  nome varchar(255) DEFAULT NULL,
- salario int DEFAULT NULL,
+ salario int DEFAULT NULL
 );
 
 CREATE TABLE departamentos (
  dep_id int NOT NULL ,
- nome varchar(255) DEFAULT NULL,
+ nome varchar(255) DEFAULT NULL
 );
 
 
