@@ -1,0 +1,39 @@
+2023.08.02 13:21:55 INFO  Started: Metals version 1.0.0 in folders '/home/guilherme/Downloads/Sql-dojo' for client Visual Studio Code 1.80.1.[0m
+ago 02, 2023 1:21:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+ago 02, 2023 1:21:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+ago 02, 2023 1:21:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+ago 02, 2023 1:21:55 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/guilherme/Downloads/Sql-dojo/.metals/metals (H2 2.1)
+ago 02, 2023 1:21:55 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+ago 02, 2023 1:21:55 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.011s)
+ago 02, 2023 1:21:55 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+ago 02, 2023 1:21:55 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+ago 02, 2023 1:21:55 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+ago 02, 2023 1:21:55 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+ago 02, 2023 1:21:55 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+ago 02, 2023 1:21:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+ago 02, 2023 1:21:56 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.012s)
+2023.08.02 13:21:56 INFO  time: initialize in 0.41s[0m
+2023.08.02 13:21:57 WARN  Build server is not auto-connectable.[0m
+2023.08.02 13:21:57 WARN  no build tool detected in workspace '/home/guilherme/Downloads/Sql-dojo'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+ago 02, 2023 1:24:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+ago 02, 2023 1:25:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+ago 02, 2023 1:25:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.08.02 13:33:51 INFO  Shutting down server[0m
+2023.08.02 13:33:51 INFO  shutting down Metals[0m
+2023.08.02 13:33:51 INFO  Exiting server[0m
