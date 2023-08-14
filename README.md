@@ -23,6 +23,11 @@
 
 - Fazer as questões do arquivo questions.sql :)
 
+- Para ampliar o número de tupla no banco de dados, acesse o diretório `create_data`e rode: 
+     python data.py
+
+## Colab
+ Os exercícios podem ser feitos no Google Colabe, neste (link)[https://colab.research.google.com/drive/1oN6QWKMLxbgpIMY6Ww9F3qCXDNZZUcV_?usp=sharing] 
 
 ---
 ## Documentos e links
