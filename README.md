@@ -34,8 +34,7 @@
   https://www.postgresqltutorial.com/postgresql-administration/psql-commands/
 
 ## Colab
-   https://colab.research.google.com/drive/1oN6QWKMLxbgpIMY6Ww9F3qCXDNZZUcV_
-
+ Os exercícios podem ser feitos no Google Colabe, neste (link)[https://colab.research.google.com/drive/1jjDiw9X1qFH-p2CZvNWN6GKQu1YDpyda?usp=sharing] 
 ## To-do
 
 - Mais questões
