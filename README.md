@@ -1,4 +1,6 @@
 
+# ![WebApp](https://desenvolvimentoaberto.files.wordpress.com/2016/11/logoazuresql.png| width=100)[]
+# DOJO SQl
 
 <table>
 <tr>
@@ -13,17 +15,19 @@
 - Clonar o repositorio:
   `git clone `https://github.com/dbguilherme/Sql-dojo.git
 
-- Rodar o script: 
+- Para a base de dados de teste: Rodar o script: 
  `psql -h localhost -U postgres -d postgres -f script.sql `
 
+- Para a base de dados de produção: rodar o script create_data/data.py
+ `python create_data/data.py`
+ 
 - Acessar o terminal
   `sudo -u postgres psql postgres`
   \c dojo
 
 - Fazer as questões do arquivo questions.sql :)
 
-- Para ampliar o número de tupla no banco de dados, acesse o diretório `create_data`e rode: 
-     python data.py
+
 ---
 ## Documentos e links
 
@@ -33,8 +37,6 @@
   
   https://www.postgresqltutorial.com/postgresql-administration/psql-commands/
 
-## Colab
- Os exercícios podem ser feitos no Google Colabe, neste (link)[https://colab.research.google.com/drive/1jjDiw9X1qFH-p2CZvNWN6GKQu1YDpyda?usp=sharing] 
 ## To-do
 
 - Mais questões
