@@ -1,6 +1,5 @@
 
-# ![WebApp](https://desenvolvimentoaberto.files.wordpress.com/2016/11/logoazuresql.png| width=100)
-# DOJO SQl
+
 <table>
 <tr>
 <td>
@@ -23,7 +22,8 @@
 
 - Fazer as questões do arquivo questions.sql :)
 
-
+- Para ampliar o número de tupla no banco de dados, acesse o diretório `create_data`e rode: 
+     python data.py
 ---
 ## Documentos e links
 
