@@ -38,17 +38,15 @@
   
   https://www.postgresqltutorial.com/postgresql-administration/psql-commands/
 
-## To-do
-
-- Mais questões
-
-## Exemplo de arquivo de entrega: 
+## Exemplo de arquivo de entrega no dataset com tamanho N: 
 
 | id 	| query                 	| Tempo 1  	| Tempo 2 	| Tempo 3 	|
 |----	|-----------------------	|----------	|---------	|---------	|
 | 1  	| select * from dados;  	| 1        	| 1       	| 1       	|
 | 2  	| select * from dados;  	| 2        	| 2       	| 2       	|
 | 3  	| select * from dados;  	| 3        	| 3       	| 3       	|
+
+
 
 ## Boa atividade :)
 
@@ -68,3 +66,7 @@ Dojo para relembrar o conteúdo de SQL básico através de exercícios. Para rod
 
 - Boa atividade :) 
  -->
+
+## To-do
+
+- Mais questões
