@@ -39,7 +39,7 @@ def create_conection():
 
 
 
-# Generate and insert 1000 rows of synthetic data
+# Generate and insert N rows of synthetic data
 nomes=loadcsv()
 conn,cur=create_conection()
 random_values = list(range(1000, 10000, 100))
