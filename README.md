@@ -41,8 +41,14 @@
 ## To-do
 
 - Mais questões
-- Ampliar o dataset;
 
+## Exemplo de arquivo de entrega: 
+
+| id 	| query                 	| Tempo 1  	| Tempo 2 	| Tempo 3 	|
+|----	|-----------------------	|----------	|---------	|---------	|
+| 1  	| select * from dados;  	| 1        	| 1       	| 1       	|
+| 2  	| select * from dados;  	| 2        	| 2       	| 2       	|
+| 3  	| select * from dados;  	| 3        	| 3       	| 3       	|
 
 ## Boa atividade :)
 
