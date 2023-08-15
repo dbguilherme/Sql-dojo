@@ -26,7 +26,7 @@ def create_conection():
         host="localhost",
         database="dojo",
         user="postgres",
-        password="1761791"
+        password=""
     )
     conn.set_session(autocommit=False)
     # Create a cursor
