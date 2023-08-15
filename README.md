@@ -27,7 +27,7 @@
      python data.py
 
 ## Colab
- Os exercícios podem ser feitos no Google Colabe, neste (link)[https://colab.research.google.com/drive/1oN6QWKMLxbgpIMY6Ww9F3qCXDNZZUcV_?usp=sharing] 
+ Os exercícios podem ser feitos no Google Colab, neste (link)[https://colab.research.google.com/drive/1oN6QWKMLxbgpIMY6Ww9F3qCXDNZZUcV_?usp=sharing] 
 
 ---
 ## Documentos e links
