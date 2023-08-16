@@ -25,6 +25,7 @@
 
 - Para ampliar o número de tupla no banco de dados, acesse o diretório `create_data`e rode:
      pip install -r requirements.txt
+  
      python data.py
 
 ## Colab
