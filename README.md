@@ -31,13 +31,7 @@
  Os exercícios podem ser feitos no Google Colab, neste (link)[https://colab.research.google.com/drive/1oN6QWKMLxbgpIMY6Ww9F3qCXDNZZUcV_?usp=sharing] 
 
 ---
-## Documentos e links
 
-  https://www.postgresql.org/docs/current/sql-select.html
-  
-  https://www.tutorialspoint.com/postgresql/postgresql_syntax.htm
-  
-  https://www.postgresqltutorial.com/postgresql-administration/psql-commands/
 
 ## Exemplo de arquivo de entrega no dataset com tamanho N: 
 
