@@ -10,7 +10,7 @@
 --  Luiz      |
 
 
-2 Listar o maior salario de cada departamento (usa o group by e o IN )
+2 Listar o maior salario de cada departamento (usa o group by )
 
 --  dep_id |  max  
 -- --------+-------
