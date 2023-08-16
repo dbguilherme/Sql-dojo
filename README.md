@@ -23,7 +23,8 @@
 
 - Fazer as questões do arquivo questions.sql :)
 
-- Para ampliar o número de tupla no banco de dados, acesse o diretório `create_data`e rode: 
+- Para ampliar o número de tupla no banco de dados, acesse o diretório `create_data`e rode:
+     pip install psycopg2-binary 
      python data.py
 
 ## Colab
