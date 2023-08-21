@@ -22,13 +22,13 @@ CREATE TABLE departamentos (
 INSERT INTO empregados (emp_id, dep_id, supervisor_id, nome, salario)
 VALUES
  (1,1,0,'Jose','8000'),
-	(2,3,5,'Joao','6000'),
-	(3,1,1,'Guilherme','5000'),
-	(4,1,1,'Maria','9500'),
-	(5,2,0,'Pedro','7500'),    
-    (6,1,1,'Claudia','10000'),
-    (7,4,1,'Ana','12200'),
-    (8,2,5,'Luiz','8000');
+ (2,3,5,'Joao','6000'),
+ (3,1,1,'Guilherme','5000'),
+ (4,1,1,'Maria','9500'),
+ (5,2,0,'Pedro','7500'),    
+ (6,1,1,'Claudia','10000'),
+ (7,4,1,'Ana','12200'),
+ (8,2,5,'Luiz','8000');
 
 INSERT INTO departamentos (dep_id, nome)
 VALUES
