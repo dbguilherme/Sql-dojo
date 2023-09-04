@@ -20,7 +20,7 @@ def loadcsv():
     return data_to_insert
 
 
-def create_conection():
+def create_connection():
     # Connect to the PostgreSQL database
     conn = psycopg2.connect(
         host="localhost",
@@ -41,7 +41,7 @@ def create_conection():
 
 # Generate and insert N rows of synthetic data
 nomes=loadcsv()
-conn,cur=create_conection()
+conn,cur=create_connection()
 random_values = list(range(1000, 10000, 100))
 
 # Shuffle the list to randomize the order
