@@ -14,9 +14,6 @@
 - Para a base de dados de teste: Rodar o script: 
  `psql -h localhost -U postgres -d postgres -f script.sql `
 
-- Para a base de dados de produção: rodar o script create_data/data.py
- `python create_data/data.py`
- 
 - Acessar o terminal
   `sudo -u postgres psql postgres`
   \c dojo
@@ -24,9 +21,11 @@
 - Fazer as questões do arquivo questions.sql :)
 
 - Para ampliar o número de tupla no banco de dados, acesse o diretório `create_data`e rode:
-     pip install -r requirements.txt
-  
-     python data.py
+     - pip install -r requirements.txt
+     - Alterar  a senha do postgres (se tiver)
+     - Acessar o diretorio create_data
+     - Rodar `python data.py`
+ 
 
 ## Colab
  Os exercícios podem ser feitos no Google Colab, neste (link)[https://colab.research.google.com/drive/1oN6QWKMLxbgpIMY6Ww9F3qCXDNZZUcV_?usp=sharing] 
